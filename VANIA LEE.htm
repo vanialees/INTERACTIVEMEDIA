@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANIA LEE</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        p {
+            font-size: 1rem;
+        }
+        header {
+            height: 15vh;
+            background-color: bisque;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            height: 1%; 
+        }
+        #nav-tab {
+            width: 30vw;
+            background-color: red;
+        }
+        #content-wrapper {
+            padding: black;
+        }
+        
+    
+      </style>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+    <h1>my interactive media workbook.</h1>
+    <p>heLloOoO!</p>
+    <div class="wrapper"></div>
+        <div id="Content-wrapper">
+            <p> Week 1 | Getting the website started</p>
+            <img src="./VANIA LEE_files/Screen Shot 2025-03-11 at 14.05.03.png">
+
+    <div class="nav-tab"></div>
+    <div></div>
+        <p> Week 2 | Adding contents into the website</p>
+        <img src="./VANIA LEE_files/Screen Shot 2025-03-11 at 16.38.33.png">
+
+    <div class="nav-tab"></div>
+    <div></div>
+            <p> Week 3 | Adding contents into the website</p>
+            <div id="shooting-stars" class="hidden">
+                <div class="stars1" id="star1"><pre>*-.</pre></div>
+                <div class="stars1" id="star2"><pre>*-.</pre></div>
+                <div class="stars1" id="star3"><pre>*-.</pre></div>
+                <div class="stars1" id="star4"><pre>*-.</pre></div>
+                <div class="stars1" id="star5"><pre>*-.</pre></div>
+                <div class="stars1" id="star6"><pre>*-.</pre></div>
+                <div class="stars1" id="star7"><pre>*-.</pre></div>
+                </div>
+            </div></body></html>
